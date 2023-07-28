@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Volta Dynamics",
+    "specialization": "Electricity-Based Weaponry (Tesla Coils, EMP Technologies)",
+    "origin": "Zurich, Switzerland",
+    "ideology": "Precision and calculated efficiency. Intellectual superiority and control.",
+    "weapons": [
+      {
+        "name": "Tesla Blade",
+        "attack": 8,
+        "criticalHit": 10,
+        "accuracy": 1,
+        "price": 1500
+      },
+      {
+        "name": "EMP Grenade",
+        "attack": 4,
+        "accuracy": 1.15,
+        "price": 1200
+      },
+      {
+        "name": "Charge Rifle",
+        "attack": 12,
+        "defense": -5,
+        "accuracy": 0.9,
+        "price": 1800
+      },
+      {
+        "name": "Ion Disruptor",
+        "attack": 10,
+        "criticalHit": 15,
+        "accuracy": 0.95,
+        "price": 1700
+      },
+      {
+        "name": "Precision Coilgun",
+        "attack": 14,
+        "accuracy": 1.1,
+        "price": 2000
+      },
+      {
+        "name": "Static Trap",
+        "accuracy": 1.3,
+        "attack": 5,
+        "price": 2200
+      }
+    ],
+    "armor": [
+      {
+        "name": "Volta Field Generator",
+        "defense": 15,
+        "evasion": 1.05,
+        "price": 2000
+      },
+      {
+        "name": "Electro-Plated armor",
+        "defense": 12,
+        "criticalHit": 5,
+        "evasion": 1,
+        "price": 1800
+      },
+      {
+        "name": "Precision Shielding",
+        "defense": 18,
+        "evasion": 0.9,
+        "price": 2100
+      },
+      {
+        "name": "Ion Absorption Plating",
+        "defense": 14,
+        "criticalHit": 10,
+        "evasion": 1,
+        "price": 1900
+      }
+    ]
+  },
+  {
+    "name": "PyroTech Industries",
+    "specialization": "Combustible Fuel Weaponry (Flamethrowers, Napalm Launchers, Smokescreens)",
+    "origin": "New Orleans, USA",
+    "ideology": "Embracing chaos and destruction. Fear and unpredictability as weapons.",
+    "weapons": [
+      {
+        "name": "Inferno Flamethrower",
+        "attack": 10,
+        "criticalHit": 8,
+        "accuracy": 1.1,
+        "price": 1800
+      },
+      {
+        "name": "Napalm Grenade",
+        "attack": 6,
+        "defense": -5,
+        "accuracy": 1.15,
+        "price": 1300
+      },
+      {
+        "name": "Chaos Launcher",
+        "attack": 14,
+        "accuracy": 0.9,
+        "price": 2200
+      },
+      {
+        "name": "Smokescreen Mortar",
+        "accuracy": 1.2,
+        "defense": 10,
+        "price": 2100
+      },
+      {
+        "name": "Firestorm Cannon",
+        "attack": 16,
+        "criticalHit": 12,
+        "accuracy": 1.05,
+        "price": 2400
+      },
+      {
+        "name": "Flame Veil",
+        "attack": 25,
+        "criticalHit": -10,
+        "evasion": 1.15,
+        "price": 2500
+      }
+    ],
+    "armor": [
+      {
+        "name": "PyroGuard Suit",
+        "defense": 14,
+        "evasion": 1,
+        "price": 1900
+      },
+      {
+        "name": "Napalm-Resistant Plating",
+        "defense": 12,
+        "criticalHit": 5,
+        "evasion": 1,
+        "price": 1700
+      },
+      {
+        "name": "evasion Smoke Cloak",
+        "accuracy": 1,
+        "defense": -5,
+        "evasion": 1.15,
+        "price": 2000
+      },
+      {
+        "name": "Inferno Shield",
+        "defense": 18,
+        "criticalHit": 10,
+        "evasion": 1,
+        "price": 2100
+      }
+    ]
+  },
+  {
+    "name": "Leviathan Arms",
+    "specialization": "Naval Mech Technology (Amphibious Mechs, Harpoon Launchers)",
+    "origin": "London, United Kingdom",
+    "ideology": "Versatility, adaptability, and naval dominance. Inspired by nautical themes.",
+    "weapons": [
+      {
+        "name": "Harpoon Launcher",
+        "attack": 10,
+        "accuracy": 1.05,
+        "criticalHit Chance": 5,
+        "evasion": 1,
+        "price": 1800
+      },
+      {
+        "name": "Depth Charge Launcher",
+        "attack": 6,
+        "Area of Effect": "Area",
+        "accuracy": 1.1,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Torpedo Pod",
+        "attack": 12,
+        "Range": "Long",
+        "accuracy": 0.9,
+        "criticalHit Chance": 10,
+        "price": 2000
+      },
+      {
+        "name": "Naval Cannon",
+        "attack": 14,
+        "Range": "Long",
+        "accuracy": 1.05,
+        "criticalHit Chance": 8,
+        "price": 2200
+      },
+      {
+        "name": "Amphibious Assault Rifle",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Aqua-Mine Deployer",
+        "attack": 4,
+        "Area of Effect": "Trap",
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1300
+      }
+    ],
+    "armor": [
+      {
+        "name": "Leviathan Plating",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Depth Dive Suit",
+        "defense": 12,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Sonar Shielding",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Amphibious Reinforcements",
+        "defense": 14,
+        "evasion": 1,
+        "price": 1900
+      }
+    ]
+  },
+  {
+    "name": "Cyclotron Solutions",
+    "specialization": "Magnetism and Gravity Manipulation (Magnetic Railguns, Gravity Shields)",
+    "origin": "Tokyo, Japan",
+    "ideology": "Balance, harmony of nature and technology. Highly maneuverable mechs.",
+    "weapons": [
+      {
+        "name": "Magnetic Railgun",
+        "attack": 12,
+        "Range": "Long",
+        "accuracy": 0.95,
+        "criticalHit Chance": 10,
+        "price": 2100
+      },
+      {
+        "name": "Gravity Hammer",
+        "attack": 14,
+        "accuracy": 1,
+        "criticalHit Chance": 8,
+        "price": 2200
+      },
+      {
+        "name": "Singularity Cannon",
+        "attack": 16,
+        "Area of Effect": "Cone",
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2400
+      },
+      {
+        "name": "Magnetic Repulsor",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Graviton Disruptor",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 5,
+        "price": 1800
+      },
+      {
+        "name": "Polarity Beam",
+        "attack": 6,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      }
+    ],
+    "armor": [
+      {
+        "name": "Cyclotron Field Generator",
+        "defense": 14,
+        "evasion": 1,
+        "price": 1900
+      },
+      {
+        "name": "Magnetic Shielding",
+        "defense": 12,
+        "evasion": 1.05,
+        "price": 1700
+      },
+      {
+        "name": "Graviton armor Plating",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Polarity Distortion Cloak",
+        "defense": 16,
+        "evasion": 1,
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "name": "BioSynth Innovations",
+    "specialization": "Cybernetics and Biomech Integration",
+    "origin": "Berlin, Germany",
+    "ideology": "Pioneering the future through cybernetics and bioengineering.",
+    "weapons": [
+      {
+        "name": "Cybernetic Pulse Gauntlet",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Biomech Energy Blade",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 5,
+        "price": 1800
+      },
+      {
+        "name": "Neural Disruptor",
+        "attack": 6,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Nanobot Swarm Launcher",
+        "attack": 12,
+        "Area of Effect": "Area",
+        "accuracy": 0.95,
+        "criticalHit Chance": 8,
+        "price": 2100
+      },
+      {
+        "name": "Bio-Enhanced Sniper Rifle",
+        "attack": 16,
+        "Range": "Long",
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2400
+      },
+      {
+        "name": "Cyborg Shockwave Emitter",
+        "attack": 14,
+        "Area of Effect": "Cone",
+        "accuracy": 1.15,
+        "criticalHit Chance": 8,
+        "price": 2200
+      }
+    ],
+    "armor": [
+      {
+        "name": "Biomimicry Camouflage",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Cybernetic Exoskeleton",
+        "defense": 12,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Neural Interceptor Suit",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Nanotech Regeneration Module",
+        "defense": 14,
+        "evasion": 1,
+        "price": 1900
+      }
+    ]
+  },
+  {
+    "name": "Temporal Technologies",
+    "specialization": "Time Dilation Fields, Dimensional Rift Projectors",
+    "origin": "Moscow, Russia",
+    "ideology": "Manipulating time and dimensions. Using the past, present, and future as tools.",
+    "weapons": [
+      {
+        "name": "Temporal Distortion Rifle",
+        "attack": 12,
+        "accuracy": 0.95,
+        "criticalHit Chance": 10,
+        "price": 2100
+      },
+      {
+        "name": "Chrono Grenade",
+        "attack": 6,
+        "Area of Effect": "Area",
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Time Slicer Blade",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Dimensional Rift Cannon",
+        "attack": 14,
+        "Range": "Long",
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2200
+      },
+      {
+        "name": "Time-Phased Artillery",
+        "attack": 16,
+        "Range": "Long",
+        "accuracy": 0.95,
+        "criticalHit Chance": 15,
+        "price": 2400
+      },
+      {
+        "name": "Warp Disruptor",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 8,
+        "price": 1800
+      }
+    ],
+    "armor": [
+      {
+        "name": "Temporal Field Generator",
+        "defense": 14,
+        "evasion": 1,
+        "price": 1900
+      },
+      {
+        "name": "Phase Shift Cloak",
+        "defense": 12,
+        "evasion": 1.05,
+        "price": 1700
+      },
+      {
+        "name": "Dimensional Barrier armor",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Time Manipulator Suit",
+        "defense": 16,
+        "evasion": 1,
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "name": "Sonic Systems Unlimited",
+    "specialization": "Sonic Weaponry, Acoustic Disruption Devices",
+    "origin": "Melbourne, Australia",
+    "ideology": "Harnessing sound to influence and control. Pursuit of harmony and precision.",
+    "weapons": [
+      {
+        "name": "Sonic Resonator Cannon",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 8,
+        "price": 1800
+      },
+      {
+        "name": "Acoustic Shockwave Projector",
+        "attack": 12,
+        "Area of Effect": "Cone",
+        "accuracy": 0.95,
+        "criticalHit Chance": 10,
+        "price": 2000
+      },
+      {
+        "name": "Sonic Disorientation Emitter",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Harmonic Pulse Rifle",
+        "attack": 6,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Soundwave Amplifier",
+        "attack": 14,
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2200
+      },
+      {
+        "name": "Sonic Vibration Gauntlets",
+        "attack": 16,
+        "accuracy": 0.95,
+        "criticalHit Chance": 15,
+        "price": 2400
+      }
+    ],
+    "armor": [
+      {
+        "name": "Sonic Nullifier Suit",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Harmonic Resonance Shielding",
+        "defense": 14,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Acoustic Camouflage",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Sound Dampening armor",
+        "defense": 12,
+        "evasion": 1,
+        "price": 1700
+      }
+    ]
+  },
+  {
+    "name": "AlchemCorp",
+    "specialization": "Chemical and Biological Warfare",
+    "origin": "Cairo, Egypt",
+    "ideology": "Warfare as an art form, mixing science and alchemical knowledge.",
+    "weapons": [
+      {
+        "name": "Bio-Toxin Launcher",
+        "attack": 10,
+        "accuracy": 1.15,
+        "criticalHit Chance": 8,
+        "price": 1800
+      },
+      {
+        "name": "Alchemical Acid Cannon",
+        "attack": 12,
+        "Area of Effect": "Area",
+        "accuracy": 1.1,
+        "criticalHit Chance": 10,
+        "price": 2000
+      },
+      {
+        "name": "Plague Spreader",
+        "attack": 8,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Chemical Cloud Projector",
+        "attack": 6,
+        "accuracy": 0.95,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Biohazardous Gas Mortar",
+        "attack": 14,
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2200
+      },
+      {
+        "name": "Mutagenic Serum Injector",
+        "attack": 16,
+        "accuracy": 0.95,
+        "criticalHit Chance": 15,
+        "price": 2400
+      }
+    ],
+    "armor": [
+      {
+        "name": "Biohazard Suit",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Alchemical Resistant Plating",
+        "defense": 14,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Toxin Dispersion Shield",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Mutation Nullifier",
+        "defense": 12,
+        "evasion": 1,
+        "price": 1700
+      }
+    ]
+  },
+  {
+    "name": "Nanotech Dynamics",
+    "specialization": "Nanotechnology Integration and Weaponry",
+    "origin": "Shanghai, China",
+    "ideology": "Nanotechnology as the future of warfare. Limitless possibilities on the battlefield.",
+    "weapons": [
+      {
+        "name": "Nanite Swarm Launcher",
+        "attack": 12,
+        "Area of Effect": "Area",
+        "accuracy": 0.95,
+        "criticalHit Chance": 10,
+        "price": 2100
+      },
+      {
+        "name": "Nanobot Nanoblade",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Molecular Disassembler",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 5,
+        "price": 1800
+      },
+      {
+        "name": "Nanoparticle Cannon",
+        "attack": 14,
+        "Range": "Long",
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2200
+      },
+      {
+        "name": "Nano-Disruptor Rifle",
+        "attack": 6,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      },
+      {
+        "name": "Nanoscale Erosion Projector",
+        "attack": 16,
+        "Range": "Long",
+        "accuracy": 0.95,
+        "criticalHit Chance": 15,
+        "price": 2400
+      }
+    ],
+    "armor": [
+      {
+        "name": "Nanite Self-Repair Module",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Nano-Enhanced Plating",
+        "defense": 14,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Molecular Bonding Shielding",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Nanoswarm defense System",
+        "defense": 12,
+        "evasion": 1,
+        "price": 1700
+      }
+    ]
+  },
+  {
+    "name": "AetherWerk Industries",
+    "specialization": "Dimensional Rift Projectors, Vortex Cannons",
+    "origin": "Rio de Janeiro, Brazil",
+    "ideology": "Esoteric technologies, harnessing the power of the 'Aether.'",
+    "weapons": [
+      {
+        "name": "Aether Rift Projector",
+        "attack": 12,
+        "Range": "Long",
+        "accuracy": 0.95,
+        "criticalHit Chance": 10,
+        "price": 2100
+      },
+      {
+        "name": "Vortex Cannon",
+        "attack": 14,
+        "accuracy": 1,
+        "criticalHit Chance": 8,
+        "price": 2200
+      },
+      {
+        "name": "Dimensional Distortion Beam",
+        "attack": 16,
+        "Area of Effect": "Cone",
+        "accuracy": 0.9,
+        "criticalHit Chance": 12,
+        "price": 2400
+      },
+      {
+        "name": "Aetheric Lance",
+        "attack": 8,
+        "accuracy": 1.15,
+        "criticalHit Chance": 5,
+        "price": 1600
+      },
+      {
+        "name": "Quantum Vortex Launcher",
+        "attack": 10,
+        "accuracy": 1.1,
+        "criticalHit Chance": 5,
+        "price": 1800
+      },
+      {
+        "name": "Riftblade Emitter",
+        "attack": 6,
+        "accuracy": 1.2,
+        "criticalHit Chance": 5,
+        "price": 1500
+      }
+    ],
+    "armor": [
+      {
+        "name": "Aetheric Energy Harness",
+        "defense": 15,
+        "evasion": 1,
+        "price": 2000
+      },
+      {
+        "name": "Dimensional Phasing Cloak",
+        "defense": 14,
+        "evasion": 1.05,
+        "price": 1800
+      },
+      {
+        "name": "Vortex Stabilizer",
+        "defense": 18,
+        "evasion": 0.95,
+        "price": 2100
+      },
+      {
+        "name": "Rift-Deflecting Shield",
+        "defense": 16,
+        "evasion": 1,
+        "price": 2000
+      }
+    ]
+  }
+]
