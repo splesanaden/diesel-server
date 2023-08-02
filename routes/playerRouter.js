@@ -35,6 +35,7 @@ router.post("/register", async (req, res) => {
       id: newPlayer.id,
       name: newPlayer.name,
       cash: newPlayer.cash,
+      diamonds: newPlayer.diamonds,
     },
   });
 });
@@ -67,6 +68,7 @@ router.post("/login", async (req, res) => {
       id: player.id,
       name: player.name,
       cash: player.cash,
+      diamonds: player.diamonds,
     },
   });
 });

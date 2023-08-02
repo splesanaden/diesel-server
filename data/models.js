@@ -292,6 +292,11 @@ Player.init(
       allowNull: false,
       defaultValue: 1000,
     },
+    diamonds: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      defaultValue: 100,
+    },
     date_created: {
       type: Sequelize.DATE,
       allowNull: false,
